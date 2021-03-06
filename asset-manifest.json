@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/wordsearch/static/css/main.5ee14826.chunk.css",
-    "main.js": "/wordsearch/static/js/main.d5ff0138.chunk.js",
-    "main.js.map": "/wordsearch/static/js/main.d5ff0138.chunk.js.map",
+    "main.js": "/wordsearch/static/js/main.31161fa9.chunk.js",
+    "main.js.map": "/wordsearch/static/js/main.31161fa9.chunk.js.map",
     "runtime-main.js": "/wordsearch/static/js/runtime-main.96c867e5.js",
     "runtime-main.js.map": "/wordsearch/static/js/runtime-main.96c867e5.js.map",
     "static/js/2.e19cd4f0.chunk.js": "/wordsearch/static/js/2.e19cd4f0.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.96c867e5.js",
     "static/js/2.e19cd4f0.chunk.js",
     "static/css/main.5ee14826.chunk.css",
-    "static/js/main.d5ff0138.chunk.js"
+    "static/js/main.31161fa9.chunk.js"
   ]
 }
