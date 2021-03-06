@@ -33,7 +33,7 @@ function App() {
   return (
     <div className="app">
       <h1>FIND {subject}</h1>
-      <h2>Click the letters to select them, then press the Enter button!</h2>
+      <h2>Click each letter to select it, then press the Enter button!</h2>
       <h3>{found===words.length?"YOU FOUND THEM ALL!":`Found: ${found} Not Found: ${notFound}`}</h3>
       <div id="game">
         {game}
