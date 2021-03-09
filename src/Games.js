@@ -9,7 +9,7 @@ const randArr = [{l:aletters,w:awords,s:asubject},
 {l: cletters, w: cwords, s: csubject}]
 let random = Math.round(Math.random()*(randArr.length-1))
 const rand = randArr[random]
-let letters = rand["l"]
-let words = rand["w"]
-let subject = rand["s"]
-export {letters,words,subject}
+let gletters = rand["l"]
+let gwords = rand["w"]
+let gsubject = rand["s"]
+export {gletters,gwords,gsubject}

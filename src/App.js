@@ -1,12 +1,27 @@
 import React,{useState} from "react";
 import './App.css';
-import {letters,words,subject} from "./Games"
+import {gletters,gwords,gsubject} from "./Games"
+import {fletters, fwords, fsubject} from "./Foods"
+import {aletters, awords, asubject} from "./Animals"
+import {dletters, dwords, dsubject} from "./Drinks"
+import {cletters, cwords, csubject} from "./Colors"
 
 function App() {
   const [arr, setArr] = useState([])
   const [found, setFound] = useState(0)
   const [notFound, setNotFound] = useState(5)
   const [foundArr, setFoundArr] = useState([[null]])
+  const [letters,setLetters] = useState(gletters)
+  const [words, setWords] = useState(gwords)
+  const [subject, setSubject] = useState(gsubject)
+  function newGame(l,w,s){
+    setLetters(l)
+    setWords(w)
+    setSubject(s)
+    setFound(0)
+    setNotFound(5)
+    setFoundArr([[null]])
+  }
   function addIt(letter){
     setArr(prev => [...prev, letter])
   }
@@ -39,9 +54,13 @@ function App() {
       <div id="game">
         {game}
     </div>
-    {found<words.length?<button onClick={() => {checkIt(arr,words)}}>Enter</button>:''}
+    {found<words.length?<button onClick={() => {checkIt(arr,words)}}>Enter</button>:'SELECT ANOTHER GAME BELOW!'}
     <br /><br />
-    <button onClick={() => window.location.reload(false)}>Play Again/Reload</button>
+    <button onClick={() => newGame(fletters,fwords,fsubject)}>Foods</button>
+    <button onClick={() => newGame(aletters,awords,asubject)}>Animals</button>
+    <button onClick={() => newGame(cletters,cwords,csubject)}>Colors</button>
+    <button onClick={() => newGame(dletters,dwords,dsubject)}>Drinks</button>
+    <button onClick={() => window.location.reload(false)}>Random Game</button>
     
     </div>
   );
