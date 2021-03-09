@@ -39,9 +39,10 @@ function App() {
       <div id="game">
         {game}
     </div>
-    {found<words.length?<button onClick={() => {checkIt(arr,words)}}>Enter</button>:
-    <button onClick={() => window.location.reload(false)}>Play Again!</button>
-    }
+    {found<words.length?<button onClick={() => {checkIt(arr,words)}}>Enter</button>:''}
+    <br /><br />
+    <button onClick={() => window.location.reload(false)}>Play Again/Reload</button>
+    
     </div>
   );
 }

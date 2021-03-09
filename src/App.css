@@ -4,7 +4,7 @@
 
 #game {
   width: 25%;
-  margin: 5em auto;
+  margin: 5em auto 1em auto;
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
   min-width: 350px;
