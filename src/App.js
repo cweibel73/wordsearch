@@ -27,8 +27,8 @@ function App() {
   }
   function checkIt(arr,words){
     let sortArr = arr.sort((a,b) => a-b)
-    if(words.some(item => JSON.stringify(item.sort((a,b) => a-b))===JSON.stringify(arr))&&
-    foundArr.every(item => JSON.stringify(item.sort((a,b) => a-b))!==JSON.stringify(arr))){
+    if(words.some(item => JSON.stringify(item.sort((a,b) => a-b))===JSON.stringify([...new Set(arr)]))&&
+    foundArr.every(item => JSON.stringify(item.sort((a,b) => a-b))!==JSON.stringify([...new Set(arr)]))){
       alert("Correct!")
       setFound(prev => prev+1)
       setFoundArr(prev => [...prev, arr])
