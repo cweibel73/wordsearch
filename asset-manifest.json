@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/wordsearch/static/css/main.22283f45.chunk.css",
-    "main.js": "/wordsearch/static/js/main.ccf299f7.chunk.js",
-    "main.js.map": "/wordsearch/static/js/main.ccf299f7.chunk.js.map",
+    "main.js": "/wordsearch/static/js/main.8b8f7cb4.chunk.js",
+    "main.js.map": "/wordsearch/static/js/main.8b8f7cb4.chunk.js.map",
     "runtime-main.js": "/wordsearch/static/js/runtime-main.96c867e5.js",
     "runtime-main.js.map": "/wordsearch/static/js/runtime-main.96c867e5.js.map",
-    "static/js/2.600a9baa.chunk.js": "/wordsearch/static/js/2.600a9baa.chunk.js",
-    "static/js/2.600a9baa.chunk.js.map": "/wordsearch/static/js/2.600a9baa.chunk.js.map",
+    "static/js/2.537859b8.chunk.js": "/wordsearch/static/js/2.537859b8.chunk.js",
+    "static/js/2.537859b8.chunk.js.map": "/wordsearch/static/js/2.537859b8.chunk.js.map",
     "static/js/3.5846c363.chunk.js": "/wordsearch/static/js/3.5846c363.chunk.js",
     "static/js/3.5846c363.chunk.js.map": "/wordsearch/static/js/3.5846c363.chunk.js.map",
     "index.html": "/wordsearch/index.html",
     "static/css/main.22283f45.chunk.css.map": "/wordsearch/static/css/main.22283f45.chunk.css.map",
-    "static/js/2.600a9baa.chunk.js.LICENSE.txt": "/wordsearch/static/js/2.600a9baa.chunk.js.LICENSE.txt"
+    "static/js/2.537859b8.chunk.js.LICENSE.txt": "/wordsearch/static/js/2.537859b8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.96c867e5.js",
-    "static/js/2.600a9baa.chunk.js",
+    "static/js/2.537859b8.chunk.js",
     "static/css/main.22283f45.chunk.css",
-    "static/js/main.ccf299f7.chunk.js"
+    "static/js/main.8b8f7cb4.chunk.js"
   ]
 }
