@@ -23,12 +23,13 @@ function App() {
     setFoundArr([[null]])
   }
   function addIt(letter){
-    setArr(prev => [...prev, letter])
+    setArr(prev => !prev.includes(letter)?[...prev, letter]:
+    prev.filter(item => item!==letter))
   }
   function checkIt(arr,words){
-    let sortArr = arr.sort((a,b) => a-b)
-    if(words.some(item => JSON.stringify(item.sort((a,b) => a-b))===JSON.stringify([...new Set(arr)]))&&
-    foundArr.every(item => JSON.stringify(item.sort((a,b) => a-b))!==JSON.stringify([...new Set(arr)]))){
+    let sortArr = [...arr].sort((a,b) => a-b)
+    if(words.some(item => JSON.stringify(item.sort((a,b) => a-b))===JSON.stringify(sortArr))&&
+    foundArr.every(item => JSON.stringify(item.sort((a,b) => a-b))!==JSON.stringify(sortArr))){
       alert("Correct!")
       setFound(prev => prev+1)
       setFoundArr(prev => [...prev, arr])
